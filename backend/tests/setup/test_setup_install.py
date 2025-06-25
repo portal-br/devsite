@@ -6,7 +6,6 @@ import pytest
 
 
 class TestSetupInstall:
-
     def test_browserlayer(self, browser_layers):
         """Test that IBrowserLayer is registered."""
         from portalbrasil.devsite.interfaces import IBrowserLayer

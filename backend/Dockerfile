@@ -1,6 +1,5 @@
 # syntax=docker/dockerfile:1.9
-ARG PLONE_VERSION
-FROM ghcr.io/portal-br/core-builder:${PLONE_VERSION:-latest} AS builder
+FROM ghcr.io/portal-br/core-builder:latest AS builder
 
 # Move skeleton folder
 RUN <<EOT
@@ -43,7 +42,7 @@ RUN <<EOT
     /app/bin/python /compile_mo.py
 EOT
 
-FROM ghcr.io/portal-br/core-prod:${PLONE_VERSION:-latest}
+FROM ghcr.io/portal-br/core-prod:latest
 
 LABEL maintainer="PloneGov-BR <gov@plone.org.br>" \
       org.label-schema.name="ghcr.io/portal-br/devsite-backend" \

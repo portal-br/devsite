@@ -1572,7 +1572,7 @@ importers:
         specifier: 2.5.1
         version: 2.5.1
       query-string:
-        specifier: '*'
+        specifier: 9.1.1
         version: 9.1.1
       react:
         specifier: 18.2.0

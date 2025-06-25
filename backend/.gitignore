@@ -1,0 +1,35 @@
+# python related
+*.egg-info
+*.pyc
+*.pyo
+
+# tools related
+__pycache__/
+.coverage
+.mypy_cache
+.pytest_cache
+.ruff_cache
+/build/
+coverage.xml
+dist/
+docs/_build
+node_modules/
+
+# venv / buildout related
+.eggs/
+.installed.cfg
+.mr.developer.cfg
+.venv/
+pyvenv.cfg
+
+# mxdev
+.installed.txt
+.lock
+/.make-sentinels/
+/*-mxdev.txt
+/instance/
+/reports/
+/sources/
+/venv/
+constraints*.txt
+requirements*.txt

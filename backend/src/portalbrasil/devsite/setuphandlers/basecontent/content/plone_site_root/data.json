@@ -1,0 +1,223 @@
+{
+  "@id": "/Plone",
+  "@type": "Plone Site",
+  "UID": "plone_site_root",
+  "allow_discussion": null,
+  "blocks": {
+    "5f31e9e4-173f-4ec1-ab48-64e9e2789b76": {
+      "@type": "title"
+    },
+    "abe87858-8462-42fa-95ad-6be927a92eab": {
+      "@type": "slate"
+    },
+    "ae41d44d-c4b1-426c-acf6-2e28cb9a97a0": {
+      "@type": "slate",
+      "plaintext": "Conhe\u00e7a mais sobre o Developer Site e o PortalBrasil",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Conhe\u00e7a mais sobre o Developer Site e o PortalBrasil"
+            }
+          ],
+          "type": "h3"
+        }
+      ]
+    },
+    "af769b5f-2e56-4434-868b-b48a35620ec3": {
+      "@type": "gridBlock",
+      "blocks": {
+        "957a4888-f240-4176-bb88-47c6ee83a513": {
+          "@type": "teaser",
+          "description": "Posts sobre tecnologia e algo mais",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/b336aed0e3d444daa51fffeda3248893",
+              "@type": "BlogFolder",
+              "Description": "Posts sobre tecnologia e algo mais",
+              "Subject": [],
+              "Title": "Blog",
+              "blog_tags": null,
+              "description": "Posts sobre tecnologia e algo mais",
+              "effective": "1969-12-31T03:00:00+00:00",
+              "end": null,
+              "getObjSize": "0 KB",
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "private",
+              "start": null,
+              "title": "Blog",
+              "type_title": "Blog"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Blog"
+        },
+        "eba52d1e-40b7-4597-a54d-88bece073226": {
+          "@type": "teaser",
+          "description": "Sobre mim",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/b6a44480f0504daf9ef3126dc93f6d06",
+              "@type": "Document",
+              "Description": "Sobre mim",
+              "Title": "Sobre",
+              "description": "Sobre mim",
+              "effective": "2025-06-25T19:45:46+00:00",
+              "end": null,
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "start": null,
+              "title": "Sobre"
+            }
+          ],
+          "overwrite": false,
+          "styles": {
+            "align": "left"
+          },
+          "title": "Sobre"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "957a4888-f240-4176-bb88-47c6ee83a513",
+          "eba52d1e-40b7-4597-a54d-88bece073226"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "e5ace182-3746-472c-ad81-696425a2b161": {
+      "@type": "slate",
+      "plaintext": "Boas vindas ao seu novo site!",
+      "styles": {},
+      "theme": "default",
+      "value": [
+        {
+          "children": [
+            {
+              "text": "Boas vindas ao seu novo site!"
+            }
+          ],
+          "type": "h2"
+        }
+      ]
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "5f31e9e4-173f-4ec1-ab48-64e9e2789b76",
+      "e5ace182-3746-472c-ad81-696425a2b161",
+      "ae41d44d-c4b1-426c-acf6-2e28cb9a97a0",
+      "af769b5f-2e56-4434-868b-b48a35620ec3",
+      "abe87858-8462-42fa-95ad-6be927a92eab"
+    ]
+  },
+  "complementary_logo": null,
+  "contributors": [],
+  "creators": [
+    "admin"
+  ],
+  "description": "Site pessoal",
+  "effective": null,
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "facebook_app_id": "",
+  "facebook_username": "",
+  "footer_colophon_text": null,
+  "footer_links": [],
+  "footer_logos": [
+    {
+      "@id": "0ce57fda-83c5-4c4d-a336-71490379559a",
+      "logo": [
+        {
+          "@id": "resolveuid/a58ccead718140c1baa98d43595fc3e6",
+          "@type": "Image",
+          "Description": "",
+          "Title": "Plone Foundation Logo",
+          "image_field": "image",
+          "title": "Plone Foundation Logo"
+        }
+      ]
+    },
+    {
+      "@id": "91b0febe-a21a-4b6d-915d-2a5fdc107295",
+      "logo": [
+        {
+          "@id": "resolveuid/b20ab730c46b459a910592151e78c973",
+          "@type": "Image",
+          "Description": "",
+          "Title": "plonegovbr.png",
+          "image_field": "image",
+          "title": "plonegovbr.png"
+        }
+      ]
+    }
+  ],
+  "footer_logos_container_width": "default",
+  "footer_logos_size": "s",
+  "has_fat_menu": true,
+  "has_intranet_header": false,
+  "header_actions": [],
+  "id": "Plone",
+  "intranet_flag": null,
+  "is_folderish": true,
+  "items_total": 2,
+  "language": "##DEFAULT##",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "logo": null,
+  "preview_caption_link": null,
+  "review_state": null,
+  "rights": "",
+  "share_social_data": true,
+  "social_links": [
+    {
+      "@id": "31f4429d-7884-4ec6-972a-6238bce4747e",
+      "href": [
+        {
+          "@id": "https://github.com/portal-br/devsite",
+          "title": "github.com/portal-br/devsite"
+        }
+      ],
+      "id": "github",
+      "title": "GitHub Developer Site"
+    },
+    {
+      "@id": "9b41a292-7fae-4ac8-8561-6e394327880a",
+      "href": [
+        {
+          "@id": "https://github.com/portal-br/",
+          "title": "github.com/portal-br/"
+        }
+      ],
+      "id": "website",
+      "title": "Portal Brasil"
+    }
+  ],
+  "subjects": [],
+  "table_of_contents": null,
+  "title": "Site pessoal",
+  "type_title": "Plone Site",
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null,
+  "x_username": ""
+}

@@ -1,0 +1,84 @@
+{
+  "@id": "/blog/tags/python",
+  "@type": "BlogTag",
+  "UID": "21fb39c7814b40c3a25658cb0ac899bf",
+  "allow_discussion": null,
+  "blocks": {
+    "3773da31-4402-4d7e-ba1c-1a016637f95f": {
+      "@type": "title"
+    },
+    "c83810a2-3b45-4027-9104-b51443578719": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "blog_tags",
+            "o": "plone.app.querystring.operation.currentUID",
+            "v": ""
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "3773da31-4402-4d7e-ba1c-1a016637f95f",
+      "c83810a2-3b45-4027-9104-b51443578719"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-06-25T18:35:40+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Postagens sobre Python",
+  "effective": "2025-06-25T18:37:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "python",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-25T19:40:17+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Python",
+  "type_title": "Blog Tag",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-25T18:35:40+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-25T18:37:12+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -1,0 +1,95 @@
+{
+  "@id": "/imagens",
+  "@type": "Folder",
+  "UID": "3349a96f802f4850932c86571a63f731",
+  "allow_discussion": null,
+  "blocks": {
+    "a8c16d15-a272-4294-b7cf-b5313bbe0909": {
+      "@type": "description"
+    },
+    "be3c62d6-4365-4c81-9ac5-b11bc04e7730": {
+      "@type": "slate"
+    },
+    "d5f260f8-986b-4ef2-b394-522b7f8a1bc6": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Image"
+            ]
+          },
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.absolutePath",
+            "v": "/imagens/"
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "imageGallery"
+    },
+    "e082ffc3-4b20-4934-9e83-e39a15197761": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "e082ffc3-4b20-4934-9e83-e39a15197761",
+      "a8c16d15-a272-4294-b7cf-b5313bbe0909",
+      "d5f260f8-986b-4ef2-b394-522b7f8a1bc6",
+      "be3c62d6-4365-4c81-9ac5-b11bc04e7730"
+    ]
+  },
+  "contributors": [],
+  "created": "2025-06-25T18:18:48+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Imagens utilizadas no site",
+  "effective": "2025-06-25T18:19:00+00:00",
+  "exclude_from_nav": true,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "imagens",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "listing_view",
+  "lock": {},
+  "modified": "2025-06-25T18:19:25+00:00",
+  "nav_title": null,
+  "nextPreviousEnabled": false,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Imagens",
+  "type_title": "Folder",
+  "version": "current",
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-25T18:18:48+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-25T18:19:25+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

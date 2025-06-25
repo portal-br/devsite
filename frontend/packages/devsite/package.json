@@ -1,0 +1,66 @@
+{
+  "name": "@portalbrasil/devsite",
+  "version": "1.0.0-alpha.0",
+  "description": "Developer Site: Ferramenta de sites para profissionais de TI",
+  "main": "src/index.ts",
+  "license": "MIT",
+  "keywords": [
+    "volto-addon",
+    "volto",
+    "plone",
+    "react"
+  ],
+  "author": "PloneGov-BR",
+  "homepage": "https://github.com/portal-br/devsite#readme",
+  "repository": {
+    "type": "git",
+    "url": "git@github.com:portal-br/devsite.git"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "scripts": {
+    "i18n": "rm -rf build/messages && NODE_ENV=production i18n --addon",
+    "dry-release": "release-it --dry-run",
+    "release": "release-it",
+    "release-major-alpha": "release-it major --preRelease=alpha",
+    "release-alpha": "release-it --preRelease=alpha"
+  },
+  "addons": [
+    "@eeacms/volto-accordion-block",
+    "@kitconcept/volto-button-block",
+    "@kitconcept/volto-heading-block",
+    "@kitconcept/volto-highlight-block",
+    "@kitconcept/volto-introduction-block",
+    "@kitconcept/volto-separator-block",
+    "@kitconcept/volto-slider-block",
+    "@plonegovbr/volto-code-block",
+    "@mbarde/volto-image-crop-widget",
+    "@plone-collective/volto-authomatic",
+    "volto-rss-provider",
+    "@plonegovbr/volto-social-media",
+    "@kitconcept/volto-light-theme"
+  ],
+  "dependencies": {
+    "@plone/components": "workspace:*",
+    "@kitconcept/volto-light-theme": "7.0.0-alpha.13",
+    "@plonegovbr/volto-social-media": "^2.0.0-alpha.6",
+    "@plone-collective/volto-authomatic": "3.0.0-alpha.3",
+    "@mbarde/volto-image-crop-widget": "0.5.1",
+    "@plonegovbr/volto-code-block": "2.3.0",
+    "classnames": "2.5.1",
+    "volto-rss-provider": "^1.0.0"
+  },
+  "peerDependencies": {
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-intl": "^3.12.1"
+  },
+  "devDependencies": {
+    "@plone/scripts": "workspace:*",
+    "@plone/types": "workspace:*",
+    "@types/react": "^18.3.3",
+    "@types/react-dom": "^18.3.0",
+    "release-it": "^17.1.1"
+  }
+}

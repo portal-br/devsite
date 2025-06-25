@@ -1,0 +1,25 @@
+[repository]
+name = "Developer Site"
+managed_by_uv = true
+changelog = "CHANGELOG.md"
+version = "version.txt"
+compose = ["docker-compose.yml", "docker-compose-demo.yml"]
+
+[repository.towncrier]
+section = "Project"
+settings = "towncrier.toml"
+
+[backend.package]
+name = "portalbrasil.devsite"
+path = "backend"
+changelog = "backend/CHANGELOG.md"
+towncrier_settings = "backend/pyproject.toml"
+base_package = "Products.CMFPlone"
+publish = true
+
+[frontend.package]
+name = "@portalbrasil/devsite"
+path = "frontend/packages/devsite"
+changelog = "frontend/packages/devsite/CHANGELOG.md"
+towncrier_settings = "frontend/packages/devsite/towncrier.toml"
+publish = true

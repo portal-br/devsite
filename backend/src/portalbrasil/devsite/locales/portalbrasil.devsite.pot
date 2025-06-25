@@ -1,0 +1,63 @@
+#--- PLEASE EDIT THE LINES BELOW CORRECTLY ---
+#SOME DESCRIPTIVE TITLE.
+#FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+msgid ""
+msgstr ""
+"Project-Id-Version: PACKAGE VERSION\n"
+"POT-Creation-Date: 2025-06-25 19:59+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI +ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0\n"
+"Language-Code: en\n"
+"Language-Name: English\n"
+"Preferred-Encodings: utf-8 latin1\n"
+"Domain: portalbrasil.devsite\n"
+
+#: portalbrasil/devsite/profiles.zcml:40
+msgid "Configura um novo site com o Developer Site"
+msgstr ""
+
+#: portalbrasil/devsite/profiles/dependencies/registry/plone.app.querystring.interfaces.IQueryOperation.xml
+msgid "Current object"
+msgstr ""
+
+#: portalbrasil/devsite/distributions.zcml:16
+#: portalbrasil/devsite/profiles.zcml:40
+msgid "Developer Site"
+msgstr ""
+
+#: portalbrasil/devsite/distributions.zcml:16
+msgid "Ferramenta de sites para profissionais de TI."
+msgstr ""
+
+#: portalbrasil/devsite/profiles.zcml:22
+msgid "Perfil com as dependências do framework base do PortalBrasil"
+msgstr ""
+
+#: portalbrasil/devsite/profiles.zcml:31
+msgid "Perfil com as dependências obrigatórias do PortalBrasil"
+msgstr ""
+
+#: portalbrasil/devsite/profiles.zcml:13
+msgid "Perfil com configurações base para projetos baseados no PortalBrasil"
+msgstr ""
+
+#: portalbrasil/devsite/profiles.zcml:13
+msgid "PortalBrasil: Configurações base"
+msgstr ""
+
+#: portalbrasil/devsite/profiles.zcml:22
+msgid "PortalBrasil: Dependências Framework"
+msgstr ""
+
+#: portalbrasil/devsite/profiles.zcml:31
+msgid "PortalBrasil: Dependências obrigatórias"
+msgstr ""
+
+#: portalbrasil/devsite/profiles/dependencies/registry/plone.app.querystring.interfaces.IQueryOperation.xml
+msgid "The current Object UID"
+msgstr ""

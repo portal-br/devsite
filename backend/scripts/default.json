@@ -1,0 +1,9 @@
+{
+    "site_id": "Plone",
+    "title": "Site pessoal",
+    "description": "Site pessoal",
+    "default_language": "pt-br",
+    "portal_timezone": "America/Sao_Paulo",
+    "setup_content": true,
+    "distribution": "devsite"
+}

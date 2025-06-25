@@ -1,0 +1,94 @@
+{
+  "@id": "/blog/autores/joana-da-silva",
+  "@type": "Author",
+  "UID": "9c678274c38a44488d7d2b7a2c59c800",
+  "allow_discussion": null,
+  "blocks": {
+    "5ef7e7bc-9738-416e-ba01-357b9be787f9": {
+      "@type": "description"
+    },
+    "a1234316-96b3-4c20-a83c-dd61c4e800f1": {
+      "@type": "listing",
+      "headline": "\u00daltimas postagens",
+      "headlineTag": "h2",
+      "querystring": {
+        "query": [
+          {
+            "i": "Creator",
+            "o": "plone.app.querystring.operation.currentUID",
+            "v": ""
+          }
+        ],
+        "sort_on": "effective",
+        "sort_order": "descending",
+        "sort_order_boolean": true
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
+    },
+    "f910922a-4b9d-46c4-96f5-4399c18e5aff": {
+      "@type": "slate"
+    },
+    "ff39ae42-5934-405a-afa9-d438fb5273b6": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "ff39ae42-5934-405a-afa9-d438fb5273b6",
+      "5ef7e7bc-9738-416e-ba01-357b9be787f9",
+      "a1234316-96b3-4c20-a83c-dd61c4e800f1",
+      "f910922a-4b9d-46c4-96f5-4399c18e5aff"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-06-25T18:36:41+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Joana da Silva \u00e9 desenvolvedora Python",
+  "effective": "2025-06-25T18:36:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "head_title": null,
+  "id": "joana-da-silva",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "view",
+  "lock": {},
+  "modified": "2025-06-25T19:37:44+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "social_links": [],
+  "subjects": [],
+  "title": "Joana da Silva",
+  "type_title": "Blog Author",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-25T18:36:41+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-25T18:36:46+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

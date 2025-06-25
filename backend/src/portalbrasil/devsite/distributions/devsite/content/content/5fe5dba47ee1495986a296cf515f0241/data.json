@@ -1,0 +1,78 @@
+{
+  "@id": "/blog/tags",
+  "@type": "Document",
+  "UID": "5fe5dba47ee1495986a296cf515f0241",
+  "allow_discussion": null,
+  "blocks": {
+    "0f793cd1-53c2-4c25-b958-70b536dc7e62": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "styles": {},
+      "theme": "default",
+      "variation": "grid"
+    },
+    "9c62dba6-f1f8-4bab-a87b-2dba9b45b4b2": {
+      "@type": "slate"
+    },
+    "a5e2989f-97a2-4500-b335-73a5b0dd7708": {
+      "@type": "title"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "a5e2989f-97a2-4500-b335-73a5b0dd7708",
+      "0f793cd1-53c2-4c25-b958-70b536dc7e62",
+      "9c62dba6-f1f8-4bab-a87b-2dba9b45b4b2"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-06-25T18:32:28+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Tags utilizadas neste Blog",
+  "effective": "2025-06-25T18:37:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "tags",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-06-25T18:37:12+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Tags",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-06-25T18:32:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-06-25T18:37:12+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

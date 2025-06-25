@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<registry>
+  <records interface="collective.blog.interfaces.IBlogSettings"
+           prefix="collective.blog.settings"
+  >
+    <value key="enable_authors_folder">False</value>
+    <value key="enable_tags_folder">True</value>
+  </records>
+</registry>

@@ -1,0 +1,20 @@
+---
+name: '📝 Developer Site- Documentação'
+description: 'Solicitação de melhorias na documentação da solução Developer Site'
+labels: ['Documentação', 'precisa: avaliação']
+projects:
+  - portalbr/2
+type: Feature
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Obrigado por compartilhar esse pedido de melhoria da documentação do projeto.
+
+  - type: textarea
+    id: comentarios
+    attributes:
+      label: Descreva as melhorias
+      description: Uma descrição clara e detalhada sobre o que precisa ser corrigido ou escrito.
+    validations:
+      required: true

@@ -1,0 +1,18 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:i18n="http://namespaces.zope.org/i18n"
+    xmlns:plone="http://namespaces.plone.org/plone"
+    i18n_domain="portalbrasil.devsite"
+    >
+
+  <plone:distribution
+      name="devsite"
+      title="Developer Site"
+      description="Ferramenta de sites para profissionais de TI."
+      directory="distributions/devsite"
+      handler=".handlers.handler"
+      post_handler=".handlers.post_handler"
+      pre_handler=".handlers.pre_handler"
+      />
+
+</configure>

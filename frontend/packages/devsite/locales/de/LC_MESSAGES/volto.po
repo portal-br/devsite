@@ -1,0 +1,137 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language: de\n"
+"Language-Team: \n"
+"Content-Type: \n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. Default: "Add-ons"
+#: components/Controlpanels/VersionOverview
+msgid "Add-ons"
+msgstr ""
+
+#. Default: "Back"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Back"
+msgstr ""
+
+#. Default: "Block Width"
+#: components/Blocks/code/schema
+msgid "Block Width"
+msgstr ""
+
+#. Default: "Configuration Versions"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Configuration Versions"
+msgstr ""
+
+#. Default: "Current active configuration"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Current active configuration"
+msgstr ""
+
+#. Default: "Dry run selected, transaction aborted."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Dry run selected, transaction aborted."
+msgstr ""
+
+#. Default: "Latest available configuration"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Latest available configuration"
+msgstr ""
+
+#. Default: "More information about the upgrade procedure can be found in the documentation section of plone.org in the Upgrade Guide."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "More information about the upgrade procedure can be found in the documentation section of plone.org in the Upgrade Guide."
+msgstr ""
+
+#. Default: "No addons found"
+#: components/Controlpanels/VersionOverview
+msgid "No addons found"
+msgstr ""
+
+#. Default: "Package Version"
+#: components/Controlpanels/VersionOverview
+msgid "Package Version"
+msgstr ""
+
+#. Default: "Please ensure you have a backup of your site before performing the upgrade."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Please ensure you have a backup of your site before performing the upgrade."
+msgstr ""
+
+#. Default: "Profile Version (File system)"
+#: components/Controlpanels/VersionOverview
+msgid "Profile Version (File system)"
+msgstr ""
+
+#. Default: "Profile Version (Installed)"
+#: components/Controlpanels/VersionOverview
+msgid "Profile Version (Installed)"
+msgstr ""
+
+#. Default: "The following list shows which upgrade steps are going to be run. Upgrading sometimes performs a catalog/security update, which may take a long time on large sites. Be patient."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "The following list shows which upgrade steps are going to be run. Upgrading sometimes performs a catalog/security update, which may take a long time on large sites. Be patient."
+msgstr ""
+
+#. Default: "The site configuration is outdated and needs to be upgraded."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "The site configuration is outdated and needs to be upgraded."
+msgstr ""
+
+#. Default: "There was an error with the upgrade."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "There was an error with the upgrade."
+msgstr ""
+
+#. Default: "Upgrade"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Upgrade"
+msgstr ""
+
+#. Default: "Upgrade Plone Site"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Upgrade Plone Site"
+msgstr ""
+
+#. Default: "Upgrade Report"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Upgrade Report"
+msgstr ""
+
+#. Default: "Upgrade Steps"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Upgrade Steps"
+msgstr ""
+
+#. Default: "Upgrade portalbrasil.devsite"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Upgrade portalbrasil.devsite"
+msgstr ""
+
+#. Default: "Upgrade your Site"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Upgrade your Site"
+msgstr ""
+
+#. Default: "Version Overview"
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Version Overview"
+msgstr ""
+
+#. Default: "You are running in 'debug mode'. This mode is intended for sites that are under development. This allows many configuration changes to be immediately visible, but will make your site run more slowly. To turn off debug mode, stop the server, set 'debug-mode=off' in your buildout.cfg, re-run bin/buildout and then restart the server process."
+#: components/Controlpanels/VersionOverview
+msgid "Warning Regarding debug mode"
+msgstr ""
+
+#. Default: "Your site is up to date."
+#: components/Controlpanels/UpgradeControlPanel
+msgid "Your site is up to date."
+msgstr ""

@@ -1,0 +1,21 @@
+name: "Developer Site: Documentação"
+
+on:
+  workflow_call:
+    inputs:
+      python-version:
+        required: true
+        type: string
+      working-directory:
+        required: false
+        type: string
+        default: docs
+
+jobs:
+  docs:
+    name: "Documentação: Gerar e testar estilo"
+    uses: plone/meta/.github/workflows/docs-build.yml@2.x
+    with:
+      python-version: ${{ inputs.python-version }}
+      working-directory: ${{ inputs.working-directory }}
+      check-vale: false

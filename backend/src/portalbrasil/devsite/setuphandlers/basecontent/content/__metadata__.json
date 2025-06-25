@@ -1,0 +1,261 @@
+{
+  "__version__": "1.0.0",
+  "_blob_files_": [
+    "a58ccead718140c1baa98d43595fc3e6/image/plone-foundation.png",
+    "b20ab730c46b459a910592151e78c973/image/plonegovbr.png",
+    "7a05d4d192674a5b84e786b414fce0a8/image/portalbrasil-wide-transp.png"
+  ],
+  "_data_files_": [
+    "plone_site_root/data.json",
+    "b336aed0e3d444daa51fffeda3248893/data.json",
+    "f87017c6e207494ba62152174b06cfb7/data.json",
+    "9c678274c38a44488d7d2b7a2c59c800/data.json",
+    "0a7fe46ed5e247dbb985a50990614a79/data.json",
+    "5fe5dba47ee1495986a296cf515f0241/data.json",
+    "21fb39c7814b40c3a25658cb0ac899bf/data.json",
+    "3349a96f802f4850932c86571a63f731/data.json",
+    "a58ccead718140c1baa98d43595fc3e6/data.json",
+    "b20ab730c46b459a910592151e78c973/data.json",
+    "7a05d4d192674a5b84e786b414fce0a8/data.json",
+    "b6a44480f0504daf9ef3126dc93f6d06/data.json"
+  ],
+  "default_page": {},
+  "local_permissions": {
+    "0a7fe46ed5e247dbb985a50990614a79": {},
+    "21fb39c7814b40c3a25658cb0ac899bf": {},
+    "3349a96f802f4850932c86571a63f731": {},
+    "5fe5dba47ee1495986a296cf515f0241": {
+      "collective.blog: Add Tag": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner",
+          "Editor",
+          "Contributor"
+        ]
+      }
+    },
+    "7a05d4d192674a5b84e786b414fce0a8": {},
+    "9c678274c38a44488d7d2b7a2c59c800": {},
+    "a58ccead718140c1baa98d43595fc3e6": {},
+    "b20ab730c46b459a910592151e78c973": {},
+    "b336aed0e3d444daa51fffeda3248893": {
+      "collective.blog: Add Author": {
+        "acquire": false,
+        "roles": []
+      },
+      "collective.blog: Add Blog": {
+        "acquire": false,
+        "roles": []
+      },
+      "collective.blog: Add Post": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner",
+          "Editor",
+          "Contributor"
+        ]
+      },
+      "collective.blog: Add Tag": {
+        "acquire": false,
+        "roles": []
+      }
+    },
+    "b6a44480f0504daf9ef3126dc93f6d06": {},
+    "f87017c6e207494ba62152174b06cfb7": {
+      "collective.blog: Add Author": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator",
+          "Owner",
+          "Editor",
+          "Contributor"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "Add portal member": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Owner",
+          "Site Administrator"
+        ]
+      },
+      "Content rules: Manage rules": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own password": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Set own properties": {
+        "acquire": false,
+        "roles": [
+          "Authenticated",
+          "Manager",
+          "Site Administrator"
+        ]
+      },
+      "Show Toolbar": {
+        "acquire": false,
+        "roles": [
+          "Authenticated"
+        ]
+      },
+      "collective.blog: Add Author": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Owner",
+          "Site Administrator"
+        ]
+      },
+      "collective.blog: Add Blog": {
+        "acquire": false,
+        "roles": [
+          "Contributor",
+          "Editor",
+          "Manager",
+          "Owner",
+          "Site Administrator"
+        ]
+      },
+      "collective.blog: Add Post": {
+        "acquire": false,
+        "roles": []
+      },
+      "collective.blog: Add Tag": {
+        "acquire": false,
+        "roles": []
+      },
+      "plone.resource: Export ZIP file": {
+        "acquire": false,
+        "roles": [
+          "Manager"
+        ]
+      },
+      "plone.resourceeditor: Manage Sources": {
+        "acquire": false,
+        "roles": [
+          "Manager",
+          "Site Administrator"
+        ]
+      }
+    }
+  },
+  "local_roles": {
+    "0a7fe46ed5e247dbb985a50990614a79": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "21fb39c7814b40c3a25658cb0ac899bf": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "3349a96f802f4850932c86571a63f731": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "5fe5dba47ee1495986a296cf515f0241": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "7a05d4d192674a5b84e786b414fce0a8": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "9c678274c38a44488d7d2b7a2c59c800": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a58ccead718140c1baa98d43595fc3e6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b20ab730c46b459a910592151e78c973": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b336aed0e3d444daa51fffeda3248893": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "b6a44480f0504daf9ef3126dc93f6d06": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "f87017c6e207494ba62152174b06cfb7": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "plone_site_root": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    }
+  },
+  "ordering": {
+    "0a7fe46ed5e247dbb985a50990614a79": 2,
+    "21fb39c7814b40c3a25658cb0ac899bf": 0,
+    "3349a96f802f4850932c86571a63f731": 41,
+    "5fe5dba47ee1495986a296cf515f0241": 1,
+    "7a05d4d192674a5b84e786b414fce0a8": 1,
+    "9c678274c38a44488d7d2b7a2c59c800": 0,
+    "a58ccead718140c1baa98d43595fc3e6": 0,
+    "b20ab730c46b459a910592151e78c973": 2,
+    "b336aed0e3d444daa51fffeda3248893": 42,
+    "b6a44480f0504daf9ef3126dc93f6d06": 43,
+    "f87017c6e207494ba62152174b06cfb7": 0
+  },
+  "relations": []
+}

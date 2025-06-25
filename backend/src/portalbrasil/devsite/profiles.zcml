@@ -1,0 +1,50 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
+    i18n_domain="portalbrasil.devsite"
+    >
+
+  <genericsetup:registerProfile
+      name="base"
+      title="PortalBrasil: Configurações base"
+      description="Perfil com configurações base para projetos baseados no PortalBrasil"
+      directory="profiles/base"
+      post_handler="portalbrasil.devsite.setuphandlers.base.import_final_steps"
+      />
+
+  <genericsetup:registerProfile
+      name="cmfdependencies"
+      title="PortalBrasil: Dependências Framework"
+      description="Perfil com as dependências do framework base do PortalBrasil"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="plone.base.interfaces.IPloneSiteRoot"
+      directory="profiles/cmfdependencies"
+      />
+
+  <genericsetup:registerProfile
+      name="dependencies"
+      title="PortalBrasil: Dependências obrigatórias"
+      description="Perfil com as dependências obrigatórias do PortalBrasil"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      for="plone.base.interfaces.IPloneSiteRoot"
+      directory="profiles/dependencies"
+      />
+
+  <genericsetup:registerProfile
+      name="default"
+      title="Developer Site"
+      description="Configura um novo site com o Developer Site"
+      provides="Products.GenericSetup.interfaces.EXTENSION"
+      directory="profiles/default"
+      post_handler=".setuphandlers.content.create_base_content"
+      />
+
+  <utility
+      factory=".setuphandlers.HiddenProfiles"
+      name="portalbrasil.devsite"
+      />
+
+
+  <include package=".upgrades" />
+
+</configure>

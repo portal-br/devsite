@@ -1,0 +1,94 @@
+.documentFirstHeading {
+  text-align: center;
+}
+
+.logo-nav-wrapper .logo img {
+  height: 100px;
+}
+
+#footer .footer .logo {
+  margin: 0 0 10px 0;
+}
+
+#footer .footer .footer-branding a {
+  font-size: 14px;
+}
+
+@mixin variable-container-width() {
+  max-width: var(--block-width, var(--layout-container-width));
+  margin-right: auto;
+  margin-left: auto;
+}
+
+// Container widths for configurable via block styling wrapper
+// TODO: consider renaming "align" property to something more meaningful
+[style*='--block-width: var(--narrow-container-width)'] {
+  @include adjustMarginsToContainer($narrow-container-width);
+}
+[style*='--block-width: var(--default-container-width)'] {
+  @include adjustMarginsToContainer($default-container-width);
+}
+[style*='--block-width: var(--layout-container-width)'] {
+  @include adjustMarginsToContainer($layout-container-width);
+}
+
+#page-document .blocks-group-wrapper {
+  & > .documentFirstHeading {
+    @include default-container-width();
+    @include adjustMarginsToContainer($default-container-width);
+  }
+}
+
+#page-document .blocks-group-wrapper {
+  & > .block.code {
+    @include variable-container-width();
+  }
+}
+
+#page-add .q.container .block-editor-codeBlock,
+#page-edit .q.container .block-editor-codeBlock {
+  @include variable-container-width();
+}
+
+.documentFirstHeading {
+  border: none;
+  @include vertical-space-h1();
+
+  h1 {
+    @include page-title();
+    @include word-break();
+  }
+
+  span {
+    border: none;
+    @include page-title();
+  }
+
+  &::before {
+    display: none;
+  }
+}
+
+p {
+  hyphens: none;
+}
+
+p code {
+  padding: 0.2em 0.2em;
+  border-radius: 3px;
+  background-color: rgba(175, 184, 193, 0.2);
+  font-size: 0.9em;
+  hyphens: none;
+}
+
+.lead-image-slot {
+  img {
+    width: 100%;
+    aspect-ratio: 24/11;
+    object-fit: cover;
+  }
+}
+
+.block.html {
+  text-align: center;
+}

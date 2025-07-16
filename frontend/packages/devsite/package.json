@@ -1,6 +1,6 @@
 {
   "name": "@portalbrasil/devsite",
-  "version": "1.0.0-alpha.0",
+  "version": "1.0.0-alpha.1",
   "description": "Developer Site: Ferramenta de sites para profissionais de TI",
   "main": "src/index.ts",
   "license": "MIT",

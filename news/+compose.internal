@@ -1,0 +1,1 @@
+Renomeia a variável de ambiente de `PM_VERSION` para `DEVSITE_VERSION` nos arquivos de docker-compose. @ericof

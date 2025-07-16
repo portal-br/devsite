@@ -35,7 +35,14 @@
   "effective": "2025-06-25T18:37:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
-  "exportimport.constrains": {},
+  "exportimport.constrains": {
+    "immediately_addable_types": [
+      "BlogTag"
+    ],
+    "locally_allowed_types": [
+      "BlogTag"
+    ]
+  },
   "exportimport.conversation": [],
   "id": "tags",
   "is_folderish": true,

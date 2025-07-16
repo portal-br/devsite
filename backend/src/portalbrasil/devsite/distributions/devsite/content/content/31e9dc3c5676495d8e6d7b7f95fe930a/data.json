@@ -1,50 +1,55 @@
 {
-  "@id": "/blog/autores",
+  "@id": "/imagens",
   "@type": "Document",
-  "UID": "f87017c6e207494ba62152174b06cfb7",
+  "UID": "31e9dc3c5676495d8e6d7b7f95fe930a",
   "allow_discussion": null,
   "blocks": {
-    "2e28d764-ac52-48c8-93ad-4c9463fbb18a": {
+    "1e79d3f1-f776-4c60-859a-6ee3511c260a": {
       "@type": "title"
     },
-    "676067e3-8685-480c-99ff-45c6c407d8f7": {
+    "3d34ba53-3f66-4947-91fc-ee700b6d0f8f": {
       "@type": "listing",
       "headlineTag": "h2",
       "styles": {},
       "theme": "default",
-      "variation": "grid"
+      "variation": "imageGallery"
     },
-    "a6252d07-6c44-4da1-9480-78ef83d70e59": {
+    "40e76e87-30e7-4659-a1c6-7e21343a0bad": {
+      "@type": "description"
+    },
+    "790ac061-65e5-40e6-bcc3-f5a9a4241e4b": {
       "@type": "slate"
     }
   },
   "blocks_layout": {
     "items": [
-      "2e28d764-ac52-48c8-93ad-4c9463fbb18a",
-      "676067e3-8685-480c-99ff-45c6c407d8f7",
-      "a6252d07-6c44-4da1-9480-78ef83d70e59"
+      "1e79d3f1-f776-4c60-859a-6ee3511c260a",
+      "40e76e87-30e7-4659-a1c6-7e21343a0bad",
+      "3d34ba53-3f66-4947-91fc-ee700b6d0f8f",
+      "790ac061-65e5-40e6-bcc3-f5a9a4241e4b"
     ]
   },
   "changeNote": "",
   "contributors": [],
-  "created": "2025-06-25T18:32:28+00:00",
+  "created": "2025-07-16T19:44:23+00:00",
   "creators": [
     "admin"
   ],
-  "description": "Autores deste blog",
-  "effective": "2025-06-25T18:37:00+00:00",
-  "exclude_from_nav": false,
+  "description": "Imagens utilizadas no site",
+  "effective": "2025-07-16T19:44:54+00:00",
+  "exclude_from_nav": true,
   "expires": null,
   "exportimport.constrains": {
     "immediately_addable_types": [
-      "Author"
+      "Image"
     ],
     "locally_allowed_types": [
-      "Author"
+      "Document",
+      "Image"
     ]
   },
   "exportimport.conversation": [],
-  "id": "autores",
+  "id": "imagens",
   "is_folderish": true,
   "language": "##DEFAULT##",
   "layout": "document_view",
@@ -52,13 +57,13 @@
     "locked": false,
     "stealable": true
   },
-  "modified": "2025-06-25T18:37:11+00:00",
+  "modified": "2025-07-16T19:45:22+00:00",
   "nav_title": null,
   "preview_caption_link": null,
   "review_state": "published",
   "rights": "",
   "subjects": [],
-  "title": "Autores",
+  "title": "Imagens",
   "type_title": "Page",
   "version": "current",
   "versioning_enabled": true,
@@ -69,14 +74,14 @@
         "actor": "admin",
         "comments": "",
         "review_state": "private",
-        "time": "2025-06-25T18:32:28+00:00"
+        "time": "2025-07-16T19:44:23+00:00"
       },
       {
         "action": "publish",
         "actor": "admin",
         "comments": "",
         "review_state": "published",
-        "time": "2025-06-25T18:37:11+00:00"
+        "time": "2025-07-16T19:44:54+00:00"
       }
     ]
   },

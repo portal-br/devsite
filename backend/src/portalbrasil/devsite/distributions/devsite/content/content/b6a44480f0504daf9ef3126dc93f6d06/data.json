@@ -101,7 +101,7 @@
     "admin"
   ],
   "description": "Sobre mim",
-  "effective": "2025-06-25T19:45:46+00:00",
+  "effective": "2025-06-25T19:45:00+00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},

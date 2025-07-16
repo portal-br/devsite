@@ -43,7 +43,7 @@
   ],
   "dependencies": {
     "@plone/components": "workspace:*",
-    "@kitconcept/volto-light-theme": "7.0.0-alpha.13",
+    "@kitconcept/volto-light-theme": "7.0.0-alpha.14",
     "@plonegovbr/volto-social-media": "^2.0.0-alpha.6",
     "@plone-collective/volto-authomatic": "3.0.0-alpha.3",
     "@mbarde/volto-image-crop-widget": "0.5.1",

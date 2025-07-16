@@ -6,7 +6,7 @@
 >
 
   <!-- Folders in Volto are disabled by default -->
-  <property name="global_allow">True</property>
+  <property name="global_allow">False</property>
   <property name="behaviors"
             purge="false"
   >

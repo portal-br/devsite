@@ -2,8 +2,8 @@
   "__version__": "1.0.0",
   "_blob_files_": [
     "a58ccead718140c1baa98d43595fc3e6/image/plone-foundation.png",
-    "b20ab730c46b459a910592151e78c973/image/plonegovbr.png",
-    "7a05d4d192674a5b84e786b414fce0a8/image/portalbrasil-wide-transp.png"
+    "7a05d4d192674a5b84e786b414fce0a8/image/portalbrasil-wide-transp.png",
+    "b20ab730c46b459a910592151e78c973/image/plonegovbr.png"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
@@ -13,7 +13,7 @@
     "0a7fe46ed5e247dbb985a50990614a79/data.json",
     "5fe5dba47ee1495986a296cf515f0241/data.json",
     "21fb39c7814b40c3a25658cb0ac899bf/data.json",
-    "3349a96f802f4850932c86571a63f731/data.json",
+    "31e9dc3c5676495d8e6d7b7f95fe930a/data.json",
     "a58ccead718140c1baa98d43595fc3e6/data.json",
     "b20ab730c46b459a910592151e78c973/data.json",
     "7a05d4d192674a5b84e786b414fce0a8/data.json",
@@ -23,7 +23,7 @@
   "local_permissions": {
     "0a7fe46ed5e247dbb985a50990614a79": {},
     "21fb39c7814b40c3a25658cb0ac899bf": {},
-    "3349a96f802f4850932c86571a63f731": {},
+    "31e9dc3c5676495d8e6d7b7f95fe930a": {},
     "5fe5dba47ee1495986a296cf515f0241": {
       "collective.blog: Add Tag": {
         "acquire": false,
@@ -173,7 +173,7 @@
         ]
       }
     },
-    "3349a96f802f4850932c86571a63f731": {
+    "31e9dc3c5676495d8e6d7b7f95fe930a": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -247,7 +247,7 @@
   "ordering": {
     "0a7fe46ed5e247dbb985a50990614a79": 2,
     "21fb39c7814b40c3a25658cb0ac899bf": 0,
-    "3349a96f802f4850932c86571a63f731": 41,
+    "31e9dc3c5676495d8e6d7b7f95fe930a": 41,
     "5fe5dba47ee1495986a296cf515f0241": 1,
     "7a05d4d192674a5b84e786b414fce0a8": 1,
     "9c678274c38a44488d7d2b7a2c59c800": 0,

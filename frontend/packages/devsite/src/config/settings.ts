@@ -23,6 +23,5 @@ export default function install(config: ConfigType) {
   ];
 
   config.settings.slate.toolbarButtons.push('code');
-
   return config;
 }

@@ -2,6 +2,8 @@
   "@id": "/Plone",
   "@type": "Plone Site",
   "UID": "plone_site_root",
+  "accent_color": null,
+  "accent_foreground_color": null,
   "allow_discussion": null,
   "blocks": {
     "5f31e9e4-173f-4ec1-ab48-64e9e2789b76": {
@@ -139,7 +141,7 @@
   "exportimport.conversation": [],
   "facebook_app_id": "",
   "facebook_username": "",
-  "footer_colophon_text": null,
+  "footer_colophon_text": "Site desenvolvido com Portal Brasil",
   "footer_links": [],
   "footer_logos": [
     {
@@ -177,7 +179,7 @@
   "id": "Plone",
   "intranet_flag": null,
   "is_folderish": true,
-  "items_total": 2,
+  "items_total": 3,
   "language": "##DEFAULT##",
   "lock": {
     "locked": false,
@@ -185,8 +187,11 @@
   },
   "logo": null,
   "preview_caption_link": null,
+  "primary_foreground_color": null,
   "review_state": null,
   "rights": "",
+  "secondary_color": null,
+  "secondary_foreground_color": null,
   "share_social_data": true,
   "social_links": [
     {

@@ -187,7 +187,6 @@ def add_site(
         context=context,
         distribution_name=distribution,
         answers=answers,
-        profile_id=profile_id,
     )
     setSite(site)
     return site

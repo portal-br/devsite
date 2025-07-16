@@ -73,7 +73,7 @@
     "admin"
   ],
   "description": "Posts sobre tecnologia e algo mais",
-  "effective": null,
+  "effective": "2025-07-16T19:44:55+00:00",
   "exclude_from_nav": false,
   "expires": null,
   "exportimport.constrains": {},
@@ -84,10 +84,10 @@
   "language": "##DEFAULT##",
   "layout": "view",
   "lock": {},
-  "modified": "2025-06-25T18:34:12+00:00",
+  "modified": "2025-07-16T19:44:55+00:00",
   "nav_title": null,
   "preview_caption_link": null,
-  "review_state": "private",
+  "review_state": "published",
   "rights": "",
   "subjects": [],
   "title": "Blog",
@@ -102,6 +102,13 @@
         "comments": "",
         "review_state": "private",
         "time": "2025-06-25T18:32:28+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-07-16T19:44:55+00:00"
       }
     ]
   },

@@ -3,6 +3,7 @@ from AccessControl.class_init import InitializeClass
 from App.config import getConfiguration
 from collections.abc import Generator
 from contextlib import contextmanager
+from importlib import metadata
 from io import StringIO
 from plone.base.interfaces import IMigrationTool
 from portalbrasil.devsite.interfaces import IAddonList
@@ -19,14 +20,13 @@ from zope.component import getUtility
 from zope.interface import implementer
 
 import logging
-import pkg_resources
 import sys
 import transaction
 
 
 def package_version(package_name: str) -> str:
     """Return the version of an installed package."""
-    package_dist = pkg_resources.get_distribution(package_name)
+    package_dist = metadata.distribution(package_name)
     return package_dist.version
 
 

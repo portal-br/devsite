@@ -7,12 +7,22 @@ import os
 
 SCRIPT_DIR = Path().cwd() / "scripts"
 
+
+def _string_as_list(value: str | None) -> list[str]:
+    if not value:
+        return []
+    items = value.split(",")
+    return [item.strip() for item in items]
+
+
 # ANSWERS OVERRIDE
 ANSWERS = {
     "site_id": os.getenv("SITE_ID"),
     "title": os.getenv("SITE_TITLE"),
     "description": os.getenv("SITE_DESCRIPTION"),
-    "default_language": os.getenv("SITE_DEFAULT_LANGUAGE"),
+    "available_languages": _string_as_list(
+        os.getenv("SITE_AVAILABLE_LANGUAGES", os.getenv("SITE_DEFAULT_LANGUAGE"))
+    ),
     "portal_timezone": os.getenv("SITE_PORTAL_TIMEZONE"),
     "setup_content": os.getenv("SITE_SETUP_CONTENT", "true"),
 }

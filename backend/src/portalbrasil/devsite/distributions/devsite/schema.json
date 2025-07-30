@@ -4,12 +4,70 @@
     "description": "Portal para profissionais de TI.",
     "type": "object",
     "definitions": {
+      "socialmedia": {
+        "type": "object",
+        "title": "Rede social",
+        "properties": {
+          "id": {
+            "type": "string",
+            "title": "Rede social",
+            "enum": [
+              "bluesky",
+              "facebook",
+              "instagram",
+              "linkedin",
+              "mastodon",
+              "website",
+              "x",
+              "youtube"
+            ]
+          },
+          "title": {
+            "type": "string",
+            "title": "Nome amigável",
+            "default": ""
+          },
+          "href": {
+            "type": "string",
+            "title": "URL",
+            "description": "URL do perfil na rede social"
+          }
+        },
+        "required": ["id", "href"]
+      },
+      "languages": {
+        "type": "string",
+        "title": "Language",
+        "anyOf": [
+          {
+            "type": "string",
+            "enum": ["pt-br"],
+            "title": "Português (Brasil)"
+          },
+          {
+            "type": "string",
+            "enum": ["en"],
+            "title": "English"
+          },
+          {
+            "type": "string",
+            "enum": ["es"],
+            "title": "Español"
+          }
+        ]
+      },
       "timezones": {
         "title": "Fuso horário",
         "type": "string",
-        "default": "America/Sao_Paulo",
         "description": "A configuração de fuso horário padrão do portal. Os usuários poderão definir seu próprio fuso horário, se os fusos horários disponíveis estiverem definidos nas configurações de data e hora.",
         "anyOf": [
+          {
+            "type": "string",
+            "enum": [
+              "UTC"
+            ],
+            "title": "UTC"
+          },
           {
             "type": "string",
             "enum": [
@@ -37,13 +95,6 @@
               "America/Manaus"
             ],
             "title": "Manaus (America/Manaus)"
-          },
-          {
-            "type": "string",
-            "enum": [
-              "UTC"
-            ],
-            "title": "UTC (UTC)"
           }
         ]
       }
@@ -73,11 +124,25 @@
       "site_logo": {
         "type": "string",
         "format": "data-url",
-        "title": "Logo do Portal",
+        "title": "Logo do Portal"
+      },
+      "available_languages": {
+        "type": "array",
+        "title": "Idiomas disponíveis",
+        "description": "Idiomas que o portal deve oferecer aos usuários. O primeiro idioma da lista será o idioma padrão do portal.",
+        "items": {"$ref": "#/definitions/languages"},
+        "default": ["pt-br"]
+      },
+      "social_links": {
+        "type": "array",
+        "title": "Redes sociais",
+        "description": "Links para redes sociais do portal.",
+        "items": {"$ref": "#/definitions/socialmedia"},
+        "default": []
       },
       "default_language": {
         "type": "string",
-        "title": "Idioma",
+        "title": "Idioma padrão",
         "default": "pt-br"
       },
       "portal_timezone": {"$ref": "#/definitions/timezones"},
@@ -91,6 +156,19 @@
   },
   "uischema": {
     "site_id": {"ui:widget": "hidden"},
-    "default_language": {"ui:widget": "hidden"}
+    "available_languages": {"ui:widget": "hidden"},
+    "default_language": {"ui:widget": "hidden"},
+    "social_links": {
+      "ui:enumNames": [
+        "Bluesky",
+        "Facebook",
+        "Instagram",
+        "LinkedIn",
+        "Mastodon",
+        "Website",
+        "X (Twitter)",
+        "YouTube"
+      ]
+    }
   }
 }

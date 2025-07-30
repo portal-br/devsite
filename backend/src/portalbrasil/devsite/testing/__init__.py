@@ -17,15 +17,15 @@ DEFAULT_ANSWERS = {
     "site_id": "plone",
     "title": "Site pessoal",
     "description": "Site pessoal",
-    "default_language": "pt-br",
-    "portal_timezone": "America/Sao_Paulo",
+    "available_languages": ["pt-br"],
+    "portal_timezone": "UTC",
     "setup_content": True,
 }
 
 
 class BaseFixture(PortalBrasilFixture):
     SITES = (("devsite", DEFAULT_ANSWERS),)
-    internal_packages: tuple[str] = (
+    internal_packages: tuple[str, ...] = (
         "plone.restapi",
         "plone.volto",
         "portalbrasil.devsite",

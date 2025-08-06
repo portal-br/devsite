@@ -42,9 +42,78 @@ Os dados desta stack serão persistidos no volume Docker chamado `portalbrasil-d
 
 Certifique-se de ter os seguintes softwares instalados:
 
+- Make ✒️ 
 - UV 🐍
 - Node 22 🟩 e pnpm 🧶
 - Docker 🐳
+
+
+#### Instalação dos pré-requisitos 
+
+1. Instale o Make
+
+```shell 
+sudo apt install make
+```
+
+2. Instale o UV
+
+```shell
+curl -LsSf https://astral.sh/uv/install.sh | sh
+```
+
+Após isso, adicione o diretório uv no seu PATH com o seguinte comando:
+
+```shell
+echo 'export PATH="$HOME/.local/bin:$PATH"' >> ~/.bashrc && source ~/.bashrc
+```
+
+3. Instale o npm e pnpm
+
+```shell 
+sudo apt-get install nodejs npm
+sudo npm install -g pnpm
+```
+
+Caso você tenha uma versão do npm inferior a 20, sugerimos o uso do [nvm](https://github.com/nvm-sh/nvm)
+
+
+3. Instale o Docker
+
+Primeiramente, você irá instalar as dependências do docker com o seguinte comando:
+
+```shell
+sudo apt install -y apt-transport-https ca-certificates curl software-properties-common
+```
+
+Adicionar um grupo de usuário:
+
+```shell
+sudo groupadd docker
+sudo usermod -aG docker ${USER}
+```
+
+Adicione a chave GPG oficial e repositório do Docker:
+
+```shell
+curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
+sudo apt-get update
+```
+
+Instale o docker e docker-compose:
+
+```shell
+sudo apt-get install -y docker-ce containerd.io docker-compose
+```
+
+OBS: Pode ser necessário reiniciar o terminal.
+
+Para verificar se a instalação deu certo, rode o seguinte comando:
+
+```shell
+docker --version
+```
 
 ### Instalação 🔧
 

@@ -1,7 +1,7 @@
 msgid ""
 msgstr ""
 "Project-Id-Version: Plone\n"
-"POT-Creation-Date: 2025-06-25T19:59:07.429Z\n"
+"POT-Creation-Date: 2025-08-06T16:50:29.518Z\n"
 "Last-Translator: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Language-Team: Plone i18n <plone-i18n@lists.sourceforge.net>\n"
 "Content-Type: text/plain; charset=utf-8\n"
@@ -41,6 +41,11 @@ msgstr ""
 #. Default: "Dry run selected, transaction aborted."
 #: components/Controlpanels/UpgradeControlPanel
 msgid "Dry run selected, transaction aborted."
+msgstr ""
+
+#. Default: "Image Album"
+#: messages
+msgid "Image Album"
 msgstr ""
 
 #. Default: "Latest available configuration"

@@ -1,0 +1,47 @@
+#main .block.listing.imageAlbum {
+  .album-items {
+    display: flex;
+    max-width: var(--layout-container-width);
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+
+    .album-item {
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      height: 200px;
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 2px;
+      container-type: normal;
+      .album-item-image {
+        img {
+          min-width: 100%;
+          max-width: 100%;
+          height: 200px;
+          object-fit: cover;
+          vertical-align: bottom;
+        }
+      }
+      .album-item-info {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        inset: 0;
+        opacity: 0;
+        pointer-events: none;
+        text-align: center;
+        transition: opacity 0.3s ease;
+      }
+      &:hover .album-item-info {
+        opacity: 1;
+        pointer-events: auto;
+      }
+    }
+  }
+}

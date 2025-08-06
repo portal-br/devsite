@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
 import { Container } from '@plone/components';
 import type { ContainedItem } from '@plone/types';

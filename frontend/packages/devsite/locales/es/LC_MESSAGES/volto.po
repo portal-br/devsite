@@ -48,6 +48,11 @@ msgstr ""
 msgid "Dry run selected, transaction aborted."
 msgstr ""
 
+#. Default: "Image Album"
+#: messages
+msgid "Image Album"
+msgstr ""
+
 #. Default: "Latest available configuration"
 #: components/Controlpanels/UpgradeControlPanel
 msgid "Latest available configuration"

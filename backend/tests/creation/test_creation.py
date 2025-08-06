@@ -3,6 +3,7 @@ from plone.app.testing.interfaces import SITE_OWNER_NAME
 from plone.distribution.api import site as site_api
 from Products.CMFCore.WorkflowCore import WorkflowException
 from Products.CMFPlone.Portal import PloneSite
+from typing import Any
 from zope.component.hooks import setSite
 
 import pytest
@@ -14,8 +15,9 @@ def answers():
         "site_id": "portal",
         "title": "Homepage",
         "description": "Site pessoal",
-        "default_language": "pt-br",
-        "portal_timezone": "America/Sao_Paulo",
+        "available_languages": ["pt-br"],
+        "social_links": [],
+        "portal_timezone": "UTC",
         "setup_content": True,
     }
 
@@ -35,7 +37,7 @@ def create_site(app, distribution_name):
 
 class TestCreationSite:
     @pytest.fixture(autouse=True)
-    def _create_site(self, create_site, answers):
+    def _setup(self, create_site, answers):
         self.site = create_site(answers)
 
     @pytest.mark.parametrize(
@@ -49,13 +51,20 @@ class TestCreationSite:
         assert getattr(site, attr) == expected
 
     @pytest.mark.parametrize(
-        "key,expected",
+        "key,oper,expected",
         [
-            ["plone.site_title", "Homepage"],
+            ["plone.site_title", "eq", "Homepage"],
+            ["plone.available_languages", "eq", ["pt-br"]],
+            ["plone.default_language", "eq", "pt-br"],
+            ["plone.email_from_name", "eq", "Homepage"],
+            ["plone.site_logo", "is", None],
+            ["plone.portal_timezone", "eq", "UTC"],
         ],
     )
-    def test_registry_entries(self, key, expected):
-        assert api.portal.get_registry_record(key) == expected
+    def test_registry_entries(
+        self, registry_checker, key: str, oper: str, expected: Any
+    ):
+        registry_checker(key, oper, expected)
 
     @pytest.mark.parametrize(
         "path,title,portal_type,review_state",
@@ -74,3 +83,16 @@ class TestCreationSite:
             with pytest.raises(WorkflowException) as exc:
                 api.content.get_state(content)
             assert "No workflow provides" in str(exc)
+
+    @pytest.mark.parametrize(
+        "attribute,oper,expected",
+        [
+            ("title", "eq", "Homepage"),
+            # ("social_links", "eq", []),
+            ("logo", "is", None),
+        ],
+    )
+    def test_portal_data(self, checker, attribute, oper, expected):
+        content = api.portal.get()
+        value = getattr(content, attribute, None)
+        checker(value, oper, expected)

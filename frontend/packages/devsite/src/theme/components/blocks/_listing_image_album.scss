@@ -45,3 +45,158 @@
     }
   }
 }
+
+.dialog {
+  --sm-font-size: 0.875rem;
+  --size: min(80dvh, 100%);
+  --fade-duration: 1s;
+
+  inline-size: var(--size);
+  max-inline-size: 600px;
+  border-radius: unset;
+
+  padding: 0;
+
+  .dialog-container {
+    display: flex;
+    flex-direction: column;
+    gap: var(--size-3);
+    position: relative;
+    overflow: hidden;
+  }
+
+  .controls {
+    position: fixed;
+    z-index: var(--layer-1);
+    inset-block-start: calc(50% - var(--size-5) / 2);
+    inset-inline: var(--size-3);
+    display: flex;
+    justify-content: space-between;
+    opacity: 0;
+    animation: var(--animation-fade-in) var(--fade-duration) forwards;
+
+    & button {
+      inline-size: var(--size-8);
+      border-radius: var(--radius-round);
+      aspect-ratio: var(--ratio-square);
+      font-size: 1.75rem;
+      background: transparent;
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      padding: 0;
+      box-shadow: var(--shadow-1);
+      color: var(--stone-1);
+      transition: color 0.2s ease;
+      @media (width > 600px) {
+        font-size: 3rem;
+      }
+
+      &:hover {
+        color: var(--stone-6);
+      }
+    }
+  }
+
+  .closeDialog {
+    position: fixed;
+    inset-block-start: var(--size-2);
+    inset-inline-end: var(--size-2);
+    block-size: 48px;
+    inline-size: 48px;
+    background-color: transparent;
+    font-size: var(--font-size-5);
+    padding: 0;
+  }
+
+  .carousel {
+    display: grid;
+    grid-auto-flow: column;
+    grid-auto-columns: var(--size);
+    inline-size: var(--size);
+    block-size: var(--size);
+
+    /* Hide scrollbar */
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+    &::-webkit-scrollbar {
+      display: none;
+    }
+
+    & img {
+      inline-size: 100%;
+      block-size: 100%;
+    }
+
+    &::after {
+      content: '';
+      position: absolute;
+      inset: 0;
+
+      background-color: var(--surface-1);
+
+      background-image: url(https://raw.githubusercontent.com/mobalti/open-props-interfaces/7d7d59bdb5dca71ec7280b88876b45d31cbf3c4a/image-gallery/images/bars-rotate-fade.svg);
+      background-repeat: no-repeat;
+      background-position: center;
+      z-index: var(--layer-3);
+
+      /* <Suspense> */
+      animation:
+        var(--animation-fade-out) var(--fade-duration) forwards,
+        var(--fade-duration) op-hide 1s forwards;
+    }
+  }
+}
+
+@layer animation.base {
+  @keyframes op-hide {
+    100% {
+      visibility: hidden;
+    }
+  }
+}
+
+@layer animation.scroll-driven {
+  body {
+    timeline-scope: --carousel;
+  }
+  #carousel {
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+    overscroll-behavior: contain;
+    scroll-behavior: smooth;
+
+    scroll-timeline: --carousel inline;
+
+    > * {
+      scroll-snap-align: center;
+    }
+  }
+
+  .controls-btn {
+    animation-duration: auto;
+    animation-fill-mode: forwards;
+    animation-timeline: --carousel;
+    animation-timing-function: linear;
+
+    &.preview {
+      animation-name: preview;
+    }
+
+    &.next {
+      animation-name: next;
+    }
+  }
+
+  @keyframes preview {
+    from {
+      visibility: hidden;
+    }
+  }
+
+  @keyframes next {
+    to {
+      visibility: hidden;
+    }
+  }
+}

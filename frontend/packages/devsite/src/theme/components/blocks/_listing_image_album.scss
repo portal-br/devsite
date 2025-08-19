@@ -38,165 +38,62 @@
         text-align: center;
         transition: opacity 0.3s ease;
       }
-      &:hover .album-item-info {
-        opacity: 1;
-        pointer-events: auto;
-      }
-    }
-  }
-}
-
-.dialog {
-  --sm-font-size: 0.875rem;
-  --size: min(80dvh, 100%);
-  --fade-duration: 1s;
-
-  inline-size: var(--size);
-  max-inline-size: 600px;
-  border-radius: unset;
-
-  padding: 0;
-
-  .dialog-container {
-    display: flex;
-    flex-direction: column;
-    gap: var(--size-3);
-    position: relative;
-    overflow: hidden;
-  }
-
-  .controls {
-    position: fixed;
-    z-index: var(--layer-1);
-    inset-block-start: calc(50% - var(--size-5) / 2);
-    inset-inline: var(--size-3);
-    display: flex;
-    justify-content: space-between;
-    opacity: 0;
-    animation: var(--animation-fade-in) var(--fade-duration) forwards;
-
-    & button {
-      inline-size: var(--size-8);
-      border-radius: var(--radius-round);
-      aspect-ratio: var(--ratio-square);
-      font-size: 1.75rem;
-      background: transparent;
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      padding: 0;
-      box-shadow: var(--shadow-1);
-      color: var(--stone-1);
-      transition: color 0.2s ease;
-      @media (width > 600px) {
-        font-size: 3rem;
-      }
-
       &:hover {
-        color: var(--stone-6);
+        .album-item-image {
+          img {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0) scale(1.6, 1.6);
+            transition: 0.5s ease-in-out;
+          }
+        }
+        .album-item-info {
+          opacity: 1;
+          pointer-events: auto;
+        }
       }
     }
   }
+}
 
-  .closeDialog {
-    position: fixed;
-    inset-block-start: var(--size-2);
-    inset-inline-end: var(--size-2);
-    block-size: 48px;
-    inline-size: 48px;
-    background-color: transparent;
-    font-size: var(--font-size-5);
-    padding: 0;
-  }
-
-  .carousel {
-    display: grid;
-    grid-auto-flow: column;
-    grid-auto-columns: var(--size);
-    inline-size: var(--size);
-    block-size: var(--size);
-
-    /* Hide scrollbar */
-    -ms-overflow-style: none; /* IE and Edge */
-    scrollbar-width: none; /* Firefox */
-    &::-webkit-scrollbar {
-      display: none;
+.ui.modal.fullscreen.visible.modal-image-full {
+  display: flex !important;
+  width: 97vw !important;
+  height: 97vh !important;
+  justify-content: start;
+  border: unset;
+  margin: auto;
+  animation: openModal 0.5s;
+  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  background-color: unset;
+  box-shadow: unset;
+  .album-modal.image.content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+    .album-modal-image {
+      display: flex;
+      width: 100% !important;
+      height: 80% !important;
+      justify-content: center;
+      .modal-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
     }
-
-    & img {
-      inline-size: 100%;
-      block-size: 100%;
-    }
-
-    &::after {
-      content: '';
-      position: absolute;
-      inset: 0;
-
-      background-color: var(--surface-1);
-
-      background-image: url(https://raw.githubusercontent.com/mobalti/open-props-interfaces/7d7d59bdb5dca71ec7280b88876b45d31cbf3c4a/image-gallery/images/bars-rotate-fade.svg);
-      background-repeat: no-repeat;
-      background-position: center;
-      z-index: var(--layer-3);
-
-      /* <Suspense> */
-      animation:
-        var(--animation-fade-out) var(--fade-duration) forwards,
-        var(--fade-duration) op-hide 1s forwards;
+    .album-modal-footer {
+      width: 100% !important;
+      text-align: center;
     }
   }
 }
 
-@layer animation.base {
-  @keyframes op-hide {
-    100% {
-      visibility: hidden;
-    }
+@keyframes openModal {
+  from {
+    transform: scale(0);
   }
-}
-
-@layer animation.scroll-driven {
-  body {
-    timeline-scope: --carousel;
-  }
-  #carousel {
-    overflow-x: scroll;
-    scroll-snap-type: x mandatory;
-    overscroll-behavior: contain;
-    scroll-behavior: smooth;
-
-    scroll-timeline: --carousel inline;
-
-    > * {
-      scroll-snap-align: center;
-    }
-  }
-
-  .controls-btn {
-    animation-duration: auto;
-    animation-fill-mode: forwards;
-    animation-timeline: --carousel;
-    animation-timing-function: linear;
-
-    &.preview {
-      animation-name: preview;
-    }
-
-    &.next {
-      animation-name: next;
-    }
-  }
-
-  @keyframes preview {
-    from {
-      visibility: hidden;
-    }
-  }
-
-  @keyframes next {
-    to {
-      visibility: hidden;
-    }
+  to {
+    transform: scale(1);
   }
 }

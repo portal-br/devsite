@@ -1,11 +1,23 @@
 import React, { useState } from 'react';
+import { defineMessages } from 'react-intl';
+import { useIntl } from 'react-intl';
 import { flattenToAppURL } from '@plone/volto/helpers/Url/Url';
+import Icon from '@plone/volto/components/theme/Icon/Icon';
 import { Button, Modal } from 'semantic-ui-react';
 import { Container } from '@plone/components';
 import type { ContainedItem } from '@plone/types';
+import zoomSVG from '@plone/volto/icons/zoom-in.svg';
 import config from '@plone/volto/registry';
 
+const messages = defineMessages({
+  zoomAction: {
+    id: 'Zoom',
+    defaultMessage: 'Zoom',
+  },
+});
+
 const AlbumItem = ({ item }: { item: ContainedItem }) => {
+  const intl = useIntl();
   const [modalOpen, setModalOpen] = useState(false);
   const baseURL = flattenToAppURL(item['@id']);
   const imageField = item.image_field || 'image';
@@ -13,6 +25,7 @@ const AlbumItem = ({ item }: { item: ContainedItem }) => {
   const scales = image.scales || {};
   const originalImage = `${baseURL}/${image?.download}`;
   const previewImage = `${baseURL}/${scales?.preview?.download}`;
+  const acao = intl.formatMessage(messages.zoomAction);
   return (
     image && (
       <div className="album-item">
@@ -26,11 +39,12 @@ const AlbumItem = ({ item }: { item: ContainedItem }) => {
             size="fullscreen"
             trigger={
               <Button
-                className="btn-open"
-                title={item.title}
+                className="zoom btn-open"
+                title={acao}
                 onClick={(evt) => evt.preventDefault()}
               >
-                <span>{item.title}</span>
+                <Icon name={zoomSVG} className={'zoom icon'} />
+                <span className="zoom text">{acao}</span>
               </Button>
             }
             onClose={() => setModalOpen(false)}

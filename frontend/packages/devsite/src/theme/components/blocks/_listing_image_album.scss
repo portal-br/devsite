@@ -37,6 +37,17 @@
         pointer-events: none;
         text-align: center;
         transition: opacity 0.3s ease;
+        .zoom.btn-open {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          background-color: var(--primary-color);
+          color: var(--primary-foreground-color);
+          gap: $spacing-small;
+          .icon {
+            filter: drop-shadow(1px 1px var(--primary-foreground-color));
+          }
+        }
       }
       &:hover {
         .album-item-image {

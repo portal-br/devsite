@@ -1,0 +1,110 @@
+#main .block.listing.imageAlbum {
+  .album-items {
+    display: flex;
+    max-width: var(--layout-container-width);
+    flex-wrap: wrap;
+    margin-right: auto;
+    margin-left: auto;
+
+    .album-item {
+      position: relative;
+      display: flex;
+      overflow: hidden;
+      height: 200px;
+      flex-direction: column;
+      flex-grow: 1;
+      margin: 2px;
+      container-type: normal;
+      .album-item-image {
+        img {
+          min-width: 100%;
+          max-width: 100%;
+          height: 200px;
+          object-fit: cover;
+          vertical-align: bottom;
+        }
+      }
+      .album-item-info {
+        position: absolute;
+        z-index: 2;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background: rgba(0, 0, 0, 0.6);
+        color: white;
+        inset: 0;
+        opacity: 0;
+        pointer-events: none;
+        text-align: center;
+        transition: opacity 0.3s ease;
+        .zoom.btn-open {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          background-color: var(--primary-color);
+          color: var(--primary-foreground-color);
+          gap: $spacing-small;
+          .icon {
+            filter: drop-shadow(1px 1px var(--primary-foreground-color));
+          }
+        }
+      }
+      &:hover {
+        .album-item-image {
+          img {
+            -webkit-transform: translate3d(0, 0, 0);
+            transform: translate3d(0, 0, 0) scale(1.6, 1.6);
+            transition: 0.5s ease-in-out;
+          }
+        }
+        .album-item-info {
+          opacity: 1;
+          pointer-events: auto;
+        }
+      }
+    }
+  }
+}
+
+.ui.modal.fullscreen.visible.modal-image-full {
+  display: flex !important;
+  width: 97vw !important;
+  height: 97vh !important;
+  justify-content: start;
+  border: unset;
+  margin: auto;
+  animation: openModal 0.5s;
+  animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
+  background-color: unset;
+  box-shadow: unset;
+  .album-modal.image.content {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: unset;
+    .album-modal-image {
+      display: flex;
+      width: 100% !important;
+      height: 80% !important;
+      justify-content: center;
+      .modal-image {
+        max-width: 100%;
+        max-height: 100%;
+        object-fit: contain;
+      }
+    }
+    .album-modal-footer {
+      width: 100% !important;
+      text-align: center;
+    }
+  }
+}
+
+@keyframes openModal {
+  from {
+    transform: scale(0);
+  }
+  to {
+    transform: scale(1);
+  }
+}

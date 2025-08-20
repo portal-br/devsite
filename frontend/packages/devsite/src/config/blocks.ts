@@ -1,5 +1,6 @@
 import type { ConfigType } from '@plone/registry';
 import { CodeStylingSchema } from '../components/Blocks/code/schema';
+import ImageAlbum from '@portalbrasil/devsite/components/Blocks/Listing/ImageAlbum';
 
 // We extend the Content type to include the new fields from the ICTA behavior
 declare module '@plone/types' {
@@ -15,6 +16,18 @@ declare module '@plone/types' {
   export interface WidgetsConfigByWidget {
     blockWidth: React.ComponentType;
   }
+}
+
+function installListingVariations(config: ConfigType) {
+  config.blocks.blocksConfig.listing.variations = [
+    ...config.blocks.blocksConfig.listing.variations,
+    {
+      id: 'imageAlbum',
+      isDefault: false,
+      title: 'Image Album',
+      template: ImageAlbum,
+    },
+  ];
 }
 
 export default function install(config: ConfigType) {
@@ -80,6 +93,8 @@ export default function install(config: ConfigType) {
       variation: 'grid',
     },
   ];
+
+  installListingVariations(config);
 
   return config;
 }

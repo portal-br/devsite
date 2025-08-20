@@ -147,3 +147,8 @@ msgstr ""
 #: components/Controlpanels/UpgradeControlPanel
 msgid "Your site is up to date."
 msgstr ""
+
+#. Default: "Zoom"
+#: components/Blocks/Listing/ImageAlbum
+msgid "Zoom"
+msgstr ""

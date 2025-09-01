@@ -1,0 +1,100 @@
+{
+  "@id": "/fotos",
+  "@type": "Document",
+  "UID": "0ea7fbce476b4c129618a40f86d4c787",
+  "allow_discussion": null,
+  "blocks": {
+    "2094d134-0507-487b-a1bc-da07d437b536": {
+      "@type": "title"
+    },
+    "4aff4a8b-6f8f-4533-b43c-10ee11b554c1": {
+      "@type": "description"
+    },
+    "509c72e6-4b53-4488-b0f0-ba901cbba221": {
+      "@type": "slate"
+    },
+    "87f180e9-aded-44ae-8b48-132c014fc239": {
+      "@type": "listing",
+      "headlineTag": "h2",
+      "querystring": {
+        "b_size": "10",
+        "query": [
+          {
+            "i": "path",
+            "o": "plone.app.querystring.operation.string.relativePath",
+            "v": "./"
+          },
+          {
+            "i": "portal_type",
+            "o": "plone.app.querystring.operation.selection.any",
+            "v": [
+              "Image"
+            ]
+          }
+        ],
+        "sort_order": "ascending"
+      },
+      "styles": {},
+      "theme": "default",
+      "variation": "imageAlbum"
+    }
+  },
+  "blocks_layout": {
+    "items": [
+      "2094d134-0507-487b-a1bc-da07d437b536",
+      "4aff4a8b-6f8f-4533-b43c-10ee11b554c1",
+      "87f180e9-aded-44ae-8b48-132c014fc239",
+      "509c72e6-4b53-4488-b0f0-ba901cbba221"
+    ]
+  },
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-20T23:03:53+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Minhas fotos",
+  "effective": "2025-08-20T23:07:00+00:00",
+  "exclude_from_nav": false,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "fotos",
+  "is_folderish": true,
+  "language": "##DEFAULT##",
+  "layout": "document_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T14:14:08+00:00",
+  "nav_title": null,
+  "preview_caption_link": null,
+  "review_state": "published",
+  "rights": "",
+  "subjects": [],
+  "title": "Fotos",
+  "type_title": "Page",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {
+    "simple_publication_workflow": [
+      {
+        "action": null,
+        "actor": "admin",
+        "comments": "",
+        "review_state": "private",
+        "time": "2025-08-20T23:03:53+00:00"
+      },
+      {
+        "action": "publish",
+        "actor": "admin",
+        "comments": "",
+        "review_state": "published",
+        "time": "2025-08-20T23:07:05+00:00"
+      }
+    ]
+  },
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -44,7 +44,7 @@
               "Title": "Blog",
               "blog_tags": null,
               "description": "Posts sobre tecnologia e algo mais",
-              "effective": "1969-12-31T03:00:00+00:00",
+              "effective": "2025-07-16T19:44:00+00:00",
               "end": null,
               "getObjSize": "0 KB",
               "getRemoteUrl": null,
@@ -53,7 +53,7 @@
               "image_field": "",
               "mime_type": "text/plain",
               "nav_title": null,
-              "review_state": "private",
+              "review_state": "published",
               "start": null,
               "title": "Blog",
               "type_title": "Blog"
@@ -74,16 +74,23 @@
               "@id": "resolveuid/b6a44480f0504daf9ef3126dc93f6d06",
               "@type": "Document",
               "Description": "Sobre mim",
+              "Subject": [],
               "Title": "Sobre",
+              "blog_tags": null,
               "description": "Sobre mim",
-              "effective": "2025-06-25T19:45:46+00:00",
+              "effective": "2025-06-25T19:45:00+00:00",
               "end": null,
+              "getObjSize": "0 KB",
               "getRemoteUrl": null,
               "hasPreviewImage": null,
               "head_title": null,
               "image_field": "",
+              "mime_type": "text/plain",
+              "nav_title": null,
+              "review_state": "published",
               "start": null,
-              "title": "Sobre"
+              "title": "Sobre",
+              "type_title": "P\u00e1gina"
             }
           ],
           "overwrite": false,
@@ -97,6 +104,52 @@
         "items": [
           "957a4888-f240-4176-bb88-47c6ee83a513",
           "eba52d1e-40b7-4597-a54d-88bece073226"
+        ]
+      },
+      "styles": {},
+      "theme": "default"
+    },
+    "c179e7d1-f3c9-436d-b60e-3aaf1ba4868d": {
+      "@type": "gridBlock",
+      "blocks": {
+        "66f8feb4-349b-4651-aad2-3b39cc3a6d93": {
+          "@type": "teaser",
+          "description": "Minhas fotos",
+          "head_title": null,
+          "href": [
+            {
+              "@id": "resolveuid/0ea7fbce476b4c129618a40f86d4c787",
+              "@type": "Document",
+              "Description": "Minhas fotos",
+              "Title": "Fotos",
+              "description": "Minhas fotos",
+              "effective": "2025-08-20T23:07:00+00:00",
+              "end": null,
+              "getRemoteUrl": null,
+              "hasPreviewImage": null,
+              "head_title": null,
+              "image_field": "",
+              "start": null,
+              "title": "Fotos"
+            }
+          ],
+          "overwrite": true,
+          "preview_image": [
+            {
+              "@id": "resolveuid/47f419e8f8c34305a6dd9b42c8f47ace",
+              "image_field": "image",
+              "title": "Geiranger"
+            }
+          ],
+          "styles": {
+            "align": "left"
+          },
+          "title": "Fotos"
+        }
+      },
+      "blocks_layout": {
+        "items": [
+          "66f8feb4-349b-4651-aad2-3b39cc3a6d93"
         ]
       },
       "styles": {},
@@ -125,6 +178,7 @@
       "e5ace182-3746-472c-ad81-696425a2b161",
       "ae41d44d-c4b1-426c-acf6-2e28cb9a97a0",
       "af769b5f-2e56-4434-868b-b48a35620ec3",
+      "c179e7d1-f3c9-436d-b60e-3aaf1ba4868d",
       "abe87858-8462-42fa-95ad-6be927a92eab"
     ]
   },
@@ -179,7 +233,7 @@
   "id": "Plone",
   "intranet_flag": null,
   "is_folderish": true,
-  "items_total": 3,
+  "items_total": 4,
   "language": "##DEFAULT##",
   "lock": {
     "locked": false,

@@ -2,8 +2,31 @@
   "__version__": "1.0.0",
   "_blob_files_": [
     "a58ccead718140c1baa98d43595fc3e6/image/plone-foundation.png",
+    "b20ab730c46b459a910592151e78c973/image/plonegovbr.png",
     "7a05d4d192674a5b84e786b414fce0a8/image/portalbrasil-wide-transp.png",
-    "b20ab730c46b459a910592151e78c973/image/plonegovbr.png"
+    "975f898566454d52a9df95ce709cd908/image/San Francisco",
+    "9f0b58396aef407caf9d23322874be9f/image/Est\u00e1dio Ol\u00edmpico de Munique",
+    "1d0b4dd830984e76ab9aefb1626e4aaa/image/Munique",
+    "88eaec73bc334d2f9860d2e231baedc4/image/Teatro em Berlim ",
+    "7f3babc3a142414ab679fa03ee591707/image/C\u00e9u Azul",
+    "97435086209b4bfdb0537ee7504f4412/image/Noruega",
+    "5e19a53ddb314f4b8d3ce39828a42d09/image/Natureza",
+    "47f419e8f8c34305a6dd9b42c8f47ace/image/Geiranger",
+    "a77928967aac46d0ba610826e6d3af2a/image/Catedral Metropolitana de Bras\u00edlia",
+    "9f8d62dc50754a7f8588671bedf8ada4/image/Ushuaia 01",
+    "7306f91daf7044a4968c9a4e05c16b03/image/Ushuaia 02",
+    "c06cd3d9e6924ae7ba557a24a1a1f48f/image/Ushuaia 03",
+    "df4a97d60b0d4bf1b6b3b5cc97c528d9/image/Ushuaia 04",
+    "2365cde7fb1c47f0ad891b773b289c5f/image/P\u00e2ntano",
+    "4536a5253edf40909073736dcc93deb2/image/Firenze",
+    "9f238454b9064e35947e70a7709a099e/image/Insbruck",
+    "cea421b78dcc4f5aae43140f0804697b/image/Zagreb",
+    "4b9e7e3961bf4447824c339e7ebe0ef2/image/Bras\u00edlia",
+    "98e3949722fd4babbfa0b8afa2b90a24/image/Salvador",
+    "10d1d10088d54f7fbc5c912bf7eb0153/image/Tori em Kyoto",
+    "5ad2e73edafe47fd8ae85f54f8541136/image/Detalhe de telhado",
+    "976cd97572c34e30b335e008cf213555/image/Templo em Kyoto",
+    "8e727ed3d3ff4a52ace65bedbabb7977/image/Kamakura"
   ],
   "_data_files_": [
     "plone_site_root/data.json",
@@ -13,6 +36,30 @@
     "0a7fe46ed5e247dbb985a50990614a79/data.json",
     "5fe5dba47ee1495986a296cf515f0241/data.json",
     "21fb39c7814b40c3a25658cb0ac899bf/data.json",
+    "0ea7fbce476b4c129618a40f86d4c787/data.json",
+    "4b9e7e3961bf4447824c339e7ebe0ef2/data.json",
+    "a77928967aac46d0ba610826e6d3af2a/data.json",
+    "7f3babc3a142414ab679fa03ee591707/data.json",
+    "5ad2e73edafe47fd8ae85f54f8541136/data.json",
+    "9f0b58396aef407caf9d23322874be9f/data.json",
+    "4536a5253edf40909073736dcc93deb2/data.json",
+    "47f419e8f8c34305a6dd9b42c8f47ace/data.json",
+    "9f238454b9064e35947e70a7709a099e/data.json",
+    "8e727ed3d3ff4a52ace65bedbabb7977/data.json",
+    "1d0b4dd830984e76ab9aefb1626e4aaa/data.json",
+    "5e19a53ddb314f4b8d3ce39828a42d09/data.json",
+    "97435086209b4bfdb0537ee7504f4412/data.json",
+    "2365cde7fb1c47f0ad891b773b289c5f/data.json",
+    "98e3949722fd4babbfa0b8afa2b90a24/data.json",
+    "975f898566454d52a9df95ce709cd908/data.json",
+    "88eaec73bc334d2f9860d2e231baedc4/data.json",
+    "976cd97572c34e30b335e008cf213555/data.json",
+    "10d1d10088d54f7fbc5c912bf7eb0153/data.json",
+    "9f8d62dc50754a7f8588671bedf8ada4/data.json",
+    "7306f91daf7044a4968c9a4e05c16b03/data.json",
+    "c06cd3d9e6924ae7ba557a24a1a1f48f/data.json",
+    "df4a97d60b0d4bf1b6b3b5cc97c528d9/data.json",
+    "cea421b78dcc4f5aae43140f0804697b/data.json",
     "31e9dc3c5676495d8e6d7b7f95fe930a/data.json",
     "a58ccead718140c1baa98d43595fc3e6/data.json",
     "b20ab730c46b459a910592151e78c973/data.json",
@@ -22,8 +69,17 @@
   "default_page": {},
   "local_permissions": {
     "0a7fe46ed5e247dbb985a50990614a79": {},
+    "0ea7fbce476b4c129618a40f86d4c787": {},
+    "10d1d10088d54f7fbc5c912bf7eb0153": {},
+    "1d0b4dd830984e76ab9aefb1626e4aaa": {},
     "21fb39c7814b40c3a25658cb0ac899bf": {},
+    "2365cde7fb1c47f0ad891b773b289c5f": {},
     "31e9dc3c5676495d8e6d7b7f95fe930a": {},
+    "4536a5253edf40909073736dcc93deb2": {},
+    "47f419e8f8c34305a6dd9b42c8f47ace": {},
+    "4b9e7e3961bf4447824c339e7ebe0ef2": {},
+    "5ad2e73edafe47fd8ae85f54f8541136": {},
+    "5e19a53ddb314f4b8d3ce39828a42d09": {},
     "5fe5dba47ee1495986a296cf515f0241": {
       "collective.blog: Add Tag": {
         "acquire": false,
@@ -36,9 +92,21 @@
         ]
       }
     },
+    "7306f91daf7044a4968c9a4e05c16b03": {},
     "7a05d4d192674a5b84e786b414fce0a8": {},
+    "7f3babc3a142414ab679fa03ee591707": {},
+    "88eaec73bc334d2f9860d2e231baedc4": {},
+    "8e727ed3d3ff4a52ace65bedbabb7977": {},
+    "97435086209b4bfdb0537ee7504f4412": {},
+    "975f898566454d52a9df95ce709cd908": {},
+    "976cd97572c34e30b335e008cf213555": {},
+    "98e3949722fd4babbfa0b8afa2b90a24": {},
     "9c678274c38a44488d7d2b7a2c59c800": {},
+    "9f0b58396aef407caf9d23322874be9f": {},
+    "9f238454b9064e35947e70a7709a099e": {},
+    "9f8d62dc50754a7f8588671bedf8ada4": {},
     "a58ccead718140c1baa98d43595fc3e6": {},
+    "a77928967aac46d0ba610826e6d3af2a": {},
     "b20ab730c46b459a910592151e78c973": {},
     "b336aed0e3d444daa51fffeda3248893": {
       "collective.blog: Add Author": {
@@ -65,6 +133,9 @@
       }
     },
     "b6a44480f0504daf9ef3126dc93f6d06": {},
+    "c06cd3d9e6924ae7ba557a24a1a1f48f": {},
+    "cea421b78dcc4f5aae43140f0804697b": {},
+    "df4a97d60b0d4bf1b6b3b5cc97c528d9": {},
     "f87017c6e207494ba62152174b06cfb7": {
       "collective.blog: Add Author": {
         "acquire": false,
@@ -166,7 +237,35 @@
         ]
       }
     },
+    "0ea7fbce476b4c129618a40f86d4c787": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "10d1d10088d54f7fbc5c912bf7eb0153": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "1d0b4dd830984e76ab9aefb1626e4aaa": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "21fb39c7814b40c3a25658cb0ac899bf": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "2365cde7fb1c47f0ad891b773b289c5f": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -180,7 +279,49 @@
         ]
       }
     },
+    "4536a5253edf40909073736dcc93deb2": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "47f419e8f8c34305a6dd9b42c8f47ace": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "4b9e7e3961bf4447824c339e7ebe0ef2": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "5ad2e73edafe47fd8ae85f54f8541136": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "5e19a53ddb314f4b8d3ce39828a42d09": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "5fe5dba47ee1495986a296cf515f0241": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "7306f91daf7044a4968c9a4e05c16b03": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -194,6 +335,55 @@
         ]
       }
     },
+    "7f3babc3a142414ab679fa03ee591707": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "88eaec73bc334d2f9860d2e231baedc4": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "8e727ed3d3ff4a52ace65bedbabb7977": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "97435086209b4bfdb0537ee7504f4412": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "975f898566454d52a9df95ce709cd908": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "976cd97572c34e30b335e008cf213555": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "98e3949722fd4babbfa0b8afa2b90a24": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "9c678274c38a44488d7d2b7a2c59c800": {
       "local_roles": {
         "admin": [
@@ -201,7 +391,35 @@
         ]
       }
     },
+    "9f0b58396aef407caf9d23322874be9f": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "9f238454b9064e35947e70a7709a099e": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "9f8d62dc50754a7f8588671bedf8ada4": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "a58ccead718140c1baa98d43595fc3e6": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "a77928967aac46d0ba610826e6d3af2a": {
       "local_roles": {
         "admin": [
           "Owner"
@@ -229,6 +447,27 @@
         ]
       }
     },
+    "c06cd3d9e6924ae7ba557a24a1a1f48f": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "cea421b78dcc4f5aae43140f0804697b": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
+    "df4a97d60b0d4bf1b6b3b5cc97c528d9": {
+      "local_roles": {
+        "admin": [
+          "Owner"
+        ]
+      }
+    },
     "f87017c6e207494ba62152174b06cfb7": {
       "local_roles": {
         "admin": [
@@ -246,15 +485,39 @@
   },
   "ordering": {
     "0a7fe46ed5e247dbb985a50990614a79": 2,
+    "0ea7fbce476b4c129618a40f86d4c787": 44,
+    "10d1d10088d54f7fbc5c912bf7eb0153": 19,
+    "1d0b4dd830984e76ab9aefb1626e4aaa": 2,
     "21fb39c7814b40c3a25658cb0ac899bf": 0,
+    "2365cde7fb1c47f0ad891b773b289c5f": 13,
     "31e9dc3c5676495d8e6d7b7f95fe930a": 41,
+    "4536a5253edf40909073736dcc93deb2": 14,
+    "47f419e8f8c34305a6dd9b42c8f47ace": 7,
+    "4b9e7e3961bf4447824c339e7ebe0ef2": 17,
+    "5ad2e73edafe47fd8ae85f54f8541136": 20,
+    "5e19a53ddb314f4b8d3ce39828a42d09": 6,
     "5fe5dba47ee1495986a296cf515f0241": 1,
+    "7306f91daf7044a4968c9a4e05c16b03": 9,
     "7a05d4d192674a5b84e786b414fce0a8": 1,
+    "7f3babc3a142414ab679fa03ee591707": 4,
+    "88eaec73bc334d2f9860d2e231baedc4": 3,
+    "8e727ed3d3ff4a52ace65bedbabb7977": 22,
+    "97435086209b4bfdb0537ee7504f4412": 5,
+    "975f898566454d52a9df95ce709cd908": 0,
+    "976cd97572c34e30b335e008cf213555": 21,
+    "98e3949722fd4babbfa0b8afa2b90a24": 18,
     "9c678274c38a44488d7d2b7a2c59c800": 0,
+    "9f0b58396aef407caf9d23322874be9f": 1,
+    "9f238454b9064e35947e70a7709a099e": 15,
+    "9f8d62dc50754a7f8588671bedf8ada4": 8,
     "a58ccead718140c1baa98d43595fc3e6": 0,
+    "a77928967aac46d0ba610826e6d3af2a": 12,
     "b20ab730c46b459a910592151e78c973": 2,
     "b336aed0e3d444daa51fffeda3248893": 42,
     "b6a44480f0504daf9ef3126dc93f6d06": 43,
+    "c06cd3d9e6924ae7ba557a24a1a1f48f": 10,
+    "cea421b78dcc4f5aae43140f0804697b": 16,
+    "df4a97d60b0d4bf1b6b3b5cc97c528d9": 11,
     "f87017c6e207494ba62152174b06cfb7": 0
   },
   "relations": []

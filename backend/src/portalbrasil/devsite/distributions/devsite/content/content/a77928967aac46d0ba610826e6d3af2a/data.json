@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/catedral-metropolitana-de-brasilia",
+  "@type": "Image",
+  "UID": "a77928967aac46d0ba610826e6d3af2a",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T13:30:34+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de Donatas Dabravolskas",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "catedral-metropolitana-de-brasilia",
+  "image": {
+    "blob_path": "a77928967aac46d0ba610826e6d3af2a/image/Catedral Metropolitana de Bras\u00edlia",
+    "content-type": "image/jpeg",
+    "filename": "Catedral Metropolitana de Bras\u00edlia",
+    "height": 680,
+    "size": 297546,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T13:58:36+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Catedral Metropolitana de Bras\u00edlia",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

@@ -95,8 +95,8 @@
     }
     .album-modal-footer {
       width: 100% !important;
-      text-align: center;
       background-color: var(--background);
+      text-align: center;
       .album-modal-title {
         display: block;
         @include block-title();

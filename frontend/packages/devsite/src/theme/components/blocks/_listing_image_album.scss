@@ -96,6 +96,15 @@
     .album-modal-footer {
       width: 100% !important;
       text-align: center;
+      background-color: var(--background);
+      .album-modal-title {
+        display: block;
+        @include block-title();
+      }
+
+      .album-modal-description {
+        display: block;
+      }
     }
   }
 }

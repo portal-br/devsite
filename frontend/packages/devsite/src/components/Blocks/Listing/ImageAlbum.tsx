@@ -60,8 +60,8 @@ const AlbumItem = ({ item }: { item: ContainedItem }) => {
                 />
               </Container>
               <Container className="album-modal-footer">
-                <span>{item.title}</span>
-                <span>{item.description}</span>
+                <span className='album-modal-title'>{item.title}</span>
+                <span className='album-modal-description'>{item.description}</span>
               </Container>
             </Modal.Content>
           </Modal>

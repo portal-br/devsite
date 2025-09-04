@@ -1,0 +1,1 @@
+Adiciona título e descrição às imagens abertas @jessicarvalho25 @leila-souza-dev-backend

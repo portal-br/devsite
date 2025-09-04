@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/tori-em-kyoto",
+  "@type": "Image",
+  "UID": "10d1d10088d54f7fbc5c912bf7eb0153",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T14:13:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "tori-em-kyoto",
+  "image": {
+    "blob_path": "10d1d10088d54f7fbc5c912bf7eb0153/image/tori-em-kyoto.jpg",
+    "content-type": "image/jpeg",
+    "filename": "Tori em Kyoto",
+    "height": 1024,
+    "size": 89670,
+    "width": 473
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T14:13:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Tori em Kyoto",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

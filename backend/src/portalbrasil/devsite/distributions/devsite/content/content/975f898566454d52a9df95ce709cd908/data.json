@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/san-francisco",
+  "@type": "Image",
+  "UID": "975f898566454d52a9df95ce709cd908",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T13:30:33+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "san-francisco",
+  "image": {
+    "blob_path": "975f898566454d52a9df95ce709cd908/image/san-francisco.jpg",
+    "content-type": "image/jpeg",
+    "filename": "san-francisco.jpg",
+    "height": 768,
+    "size": 290966,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T13:59:20+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "San Francisco",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

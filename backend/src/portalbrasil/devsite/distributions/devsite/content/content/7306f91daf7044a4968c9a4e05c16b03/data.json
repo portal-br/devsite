@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/ushuaia-02",
+  "@type": "Image",
+  "UID": "7306f91daf7044a4968c9a4e05c16b03",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T13:30:34+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "ushuaia-02",
+  "image": {
+    "blob_path": "7306f91daf7044a4968c9a4e05c16b03/image/ushuaia-02.jpg",
+    "content-type": "image/jpeg",
+    "filename": "Ushuaia 02",
+    "height": 473,
+    "size": 103711,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T13:30:34+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Ushuaia 02",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

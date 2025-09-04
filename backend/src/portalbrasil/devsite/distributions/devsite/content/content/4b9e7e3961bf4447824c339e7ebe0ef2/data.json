@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/brasilia",
+  "@type": "Image",
+  "UID": "4b9e7e3961bf4447824c339e7ebe0ef2",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T14:13:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "brasilia",
+  "image": {
+    "blob_path": "4b9e7e3961bf4447824c339e7ebe0ef2/image/brasilia.jpg",
+    "content-type": "image/jpeg",
+    "filename": "Bras\u00edlia",
+    "height": 473,
+    "size": 147015,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T14:13:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Bras\u00edlia",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

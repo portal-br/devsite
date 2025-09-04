@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/kamakura",
+  "@type": "Image",
+  "UID": "8e727ed3d3ff4a52ace65bedbabb7977",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T14:13:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "kamakura",
+  "image": {
+    "blob_path": "8e727ed3d3ff4a52ace65bedbabb7977/image/kamakura.jpg",
+    "content-type": "image/jpeg",
+    "filename": "Kamakura",
+    "height": 473,
+    "size": 138831,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T14:13:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Kamakura",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

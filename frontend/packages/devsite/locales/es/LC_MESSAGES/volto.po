@@ -48,6 +48,11 @@ msgstr ""
 msgid "Dry run selected, transaction aborted."
 msgstr ""
 
+#. Default: "Image Album"
+#: messages
+msgid "Image Album"
+msgstr ""
+
 #. Default: "Latest available configuration"
 #: components/Controlpanels/UpgradeControlPanel
 msgid "Latest available configuration"
@@ -141,4 +146,9 @@ msgstr ""
 #. Default: "Your site is up to date."
 #: components/Controlpanels/UpgradeControlPanel
 msgid "Your site is up to date."
+msgstr ""
+
+#. Default: "Zoom"
+#: components/Blocks/Listing/ImageAlbum
+msgid "Zoom"
 msgstr ""

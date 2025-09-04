@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/estadio-olimpico-de-munique",
+  "@type": "Image",
+  "UID": "9f0b58396aef407caf9d23322874be9f",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T13:30:34+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "estadio-olimpico-de-munique",
+  "image": {
+    "blob_path": "9f0b58396aef407caf9d23322874be9f/image/estadio-munique.jpg",
+    "content-type": "image/jpeg",
+    "filename": "estadio-munique.jpg",
+    "height": 681,
+    "size": 206351,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T13:59:34+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "Est\u00e1dio Ol\u00edmpico de Munique",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

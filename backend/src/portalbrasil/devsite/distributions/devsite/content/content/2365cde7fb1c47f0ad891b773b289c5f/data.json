@@ -1,0 +1,44 @@
+{
+  "@id": "/fotos/pantano",
+  "@type": "Image",
+  "UID": "2365cde7fb1c47f0ad891b773b289c5f",
+  "allow_discussion": null,
+  "changeNote": "",
+  "contributors": [],
+  "created": "2025-08-21T14:13:05+00:00",
+  "creators": [
+    "admin"
+  ],
+  "description": "Foto de \u00c9rico Andrei",
+  "effective": null,
+  "expires": null,
+  "exportimport.constrains": {},
+  "exportimport.conversation": [],
+  "id": "pantano",
+  "image": {
+    "blob_path": "2365cde7fb1c47f0ad891b773b289c5f/image/pantano.jpg",
+    "content-type": "image/jpeg",
+    "filename": "P\u00e2ntano",
+    "height": 473,
+    "size": 316373,
+    "width": 1024
+  },
+  "is_folderish": false,
+  "language": "##DEFAULT##",
+  "layout": "image_view",
+  "lock": {
+    "locked": false,
+    "stealable": true
+  },
+  "modified": "2025-08-21T14:13:05+00:00",
+  "review_state": null,
+  "rights": "",
+  "subjects": [],
+  "title": "P\u00e2ntano",
+  "type_title": "Image",
+  "version": "current",
+  "versioning_enabled": true,
+  "workflow_history": {},
+  "working_copy": null,
+  "working_copy_of": null
+}

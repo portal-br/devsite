@@ -77,6 +77,10 @@
   animation-timing-function: cubic-bezier(0.755, 0.05, 0.855, 0.06);
   background-color: unset;
   box-shadow: unset;
+.close.icon {
+    top: 1rem;
+    color: var(--text-color);
+  }
   .album-modal.image.content {
     flex-direction: column;
     align-items: center;

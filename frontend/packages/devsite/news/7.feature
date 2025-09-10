@@ -1,0 +1,1 @@
+Altera exibição do modal e localização do botão de fechar do álbum de imagens. @emmenezes @emillysant @Jehcky @leila-souza-dev-backend

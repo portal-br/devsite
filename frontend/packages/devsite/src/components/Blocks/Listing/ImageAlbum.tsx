@@ -7,6 +7,7 @@ import { Button, Modal } from 'semantic-ui-react';
 import { Container } from '@plone/components';
 import type { ContainedItem } from '@plone/types';
 import zoomSVG from '@plone/volto/icons/zoom-in.svg';
+import circleDismissSVG from '@plone/volto/icons/circle-dismiss.svg';
 import config from '@plone/volto/registry';
 
 const messages = defineMessages({
@@ -35,7 +36,13 @@ const AlbumItem = ({ item }: { item: ContainedItem }) => {
         <div className="album-item-info">
           <Modal
             className="modal-image-full"
-            closeIcon
+            closeIcon={
+              <Icon
+                name={circleDismissSVG}
+                size="50px"
+                className={'close icon'}
+              />
+            }
             size="fullscreen"
             trigger={
               <Button
